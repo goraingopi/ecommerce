@@ -6,4 +6,5 @@ import com.bikram.entity.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
+	
 }
