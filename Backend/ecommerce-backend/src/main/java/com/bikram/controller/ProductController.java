@@ -17,7 +17,7 @@ import com.bikram.service.ProductService;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin(origins = "http://")
+@CrossOrigin(origins = "*")
 public class ProductController {
 
 	@Autowired
